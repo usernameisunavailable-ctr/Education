@@ -39,12 +39,12 @@ my ideal layout for the above:
 Since I set up the script to match my system's file layout, there are a few lines which will need to be modified to
 match your own. Hopefully the python is well documented enough to have pointed out the following lines, but if not:
 
-15] os.chdir("/home/rhemus/french")
+    15] os.chdir("/home/rhemus/french")
 
 Should be changed to the folder in which both the script and vocab folder are, regardless of whether or not they are
 inside of a subfolder.
 
-17]     os.chdir("/home/rhemus/french/vocab")
+    17]     os.chdir("/home/rhemus/french/vocab")
 
 Should lead to your vocab folder, or if you have chosen not to have that in a folder then the location of the vocab
 documents.
@@ -59,16 +59,16 @@ your file navigator or terminal.
 
 To run the script, use the following syntax:
 
-python3 vocab_quiz.py vocab_3-2.txt
+    python3 vocab_quiz.py vocab_3-2.txt
 
 You will have to have python installed to run this, but it should be already available and if not, easy to install anyway.
 Naturally the `vocab_3-2` can be changed to something like `vocab_1-3`, or even any other text file in the right format.
 When you do run it, you should receive the prompt `>>` to which there are several options:
-- max
+- `max`
 > gives you as many questions as there are in the file (may repeat questions)
-- con
+- `con`
 > continuous questions from the given file
-- <number>
+- `<number>`
 > gives you the number of questions you have asked for
 I do imagine that this will by quite buggy, especially the number part as it is the oldest and less useful out of all of them.
 Additionally I will continue to update the script with new features as I please, and as can you.

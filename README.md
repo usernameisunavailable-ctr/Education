@@ -30,8 +30,8 @@ my ideal layout for the above:
     ├── scripts
     |     ├── vocab_quiz.py
     └── vocab
-     ├── test.txt
-        ├── vocab_1-1.txt
+     ├── example.txt
+        
 
 
 ### Setting up the Script

@@ -91,12 +91,12 @@ file for each week. Up to you.
 
 Due to the way that the code works, it is definitely possible to have flashcards. If you use the format described in the above
 section, you can figure out how to acheive this. It boils down to:
-
-[1] Title
-[2]
-[3] Question
-[4] Answer
-    .
-    .
-    .
+    
+    [1] Title
+    [2]
+    [3] Question
+    [4] Answer
+        .
+        .
+        .
 However if you want this to feel right, you can change line 52(max&num); 73(con) to your desired question text. Have fun!

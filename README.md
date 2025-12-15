@@ -32,4 +32,4 @@ After all of the above steps have been completed, you may run the script with
 
       python3 quiz.py select/all
 
-where 'select' and 'all' are interchangeable and self explanatory. From there on you will be prompted to either choose file, if you typed select, a mode and the amount of questions to receive. Have fun!
+where `select` and `all` are interchangeable and self explanatory. From there on you will be prompted to either choose file, if you typed select, a mode and the amount of questions to receive. Have fun!

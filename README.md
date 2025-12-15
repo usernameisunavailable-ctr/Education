@@ -2,10 +2,10 @@
 
 ### Contents
 
-> Installation 
-> Setup 
-> Usage 
-> Modification and Enhancement
+- Installation
+- Setup
+- Usage
+- Modification and Enhancement
 
 
 ## Installation
